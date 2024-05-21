@@ -1,3 +1,5 @@
+### R INSTALLATION
+
 # Встановлення бібліотек
 install.packages(c(
   "dplyr", "ggplot2", "psych", "caTools",  # Підготовка даних

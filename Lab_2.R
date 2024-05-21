@@ -1,3 +1,4 @@
+### DATA PREPARATION
 # Download data
 f <- read.csv("Data/ITC_NSE_24_Year_Stock_Data.csv", header = TRUE, sep = ",", encoding = "UTF-8")
 library(psych) 
