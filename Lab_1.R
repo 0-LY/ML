@@ -1,4 +1,4 @@
-### R INSTALLATION
+# R INSTALLATION
 
 # Встановлення бібліотек
 install.packages(c(
@@ -12,7 +12,7 @@ install.packages(c(
   "keras", "tensorflow"                    # Глибоке навчання
 ))
 
-# Підключення бібліотек за замовчуванням
+## Підключення бібліотек за замовчуванням
 library(base)
 library(datasets)
 library(graphics)
@@ -21,7 +21,7 @@ library(methods)
 library(stats)
 library(utils)
 
-# Підключення бібліотек, що потребують завантаження
+## Підключення бібліотек, що потребують завантаження
 library(dplyr)
 library(ggplot2)
 library(psych)
