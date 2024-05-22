@@ -33,3 +33,4 @@ plot(model_ap, measure = c("support", "confidence"), shading = "lift")
 plot(head(sort(model_ap, by = "support"), 30), method = "graph",
      control = list(nodeCol = rainbow(16), 
                     edgeCol = grey(.85), alpha = 1))
+
