@@ -3,8 +3,8 @@
 # Download the data
 
 set.seed(123)
-f_train <- read.csv2('bank_train.csv', header = TRUE, encoding = 'UNICOD')
-f_test <- read.csv2('bank_test.csv', header = TRUE, encoding = 'UNICOD')
+f_train <- read.csv2('Data/bank_train.csv', header = TRUE, encoding = 'UNICOD')
+f_test <- read.csv2('Data/bank_test.csv', header = TRUE, encoding = 'UNICOD')
 f_train <- f_train[-1]
 f_test <- f_test[-1]
 
