@@ -1,7 +1,7 @@
 # DATA PREPARATION
 
 # Download data
-f <- read.csv2('../Data/flats.csv', header = TRUE, encoding = 'UNICOD')
+f <- read.csv2('Data/flats.csv', header = TRUE, encoding = 'UNICOD')
 library (psych)
 describe(f)
 
@@ -99,5 +99,5 @@ split = sample.split(f$price, SplitRatio = 0.8)
 f_train = subset(f, split == TRUE)
 f_test = subset(f, split == FALSE)
 #Write prepared data to the file
-write.csv2(f_train, file = "flats_train.csv")
-write.csv2(f_test, file = "flats_test.csv")
+write.csv2(f_train, file = "Data/flats_train.csv")
+write.csv2(f_test, file = "Data/flats_test.csv")
