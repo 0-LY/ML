@@ -3,7 +3,7 @@
 # Download the data
 
 set.seed(123)
-f <- read.csv('/Users/liubomyryavorskyi/Desktop/Study/Проєкти/Лабораторні/8_Семестр/ML/Task/ML/Data/bank.csv', header = TRUE, encoding = 'UNICOD')
+f <- read.csv('Data/bank.csv', header = TRUE, encoding = 'UNICOD')
 head (f)
 
 
