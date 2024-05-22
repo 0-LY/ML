@@ -109,5 +109,5 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'red3', 'green4'))
 
 # Write prepared data to the file
 
-write.csv2(f_train, file = "bank_train.csv")
-write.csv2(f_test, file = "bank_test.csv")
+write.csv2(f_train, file = "Data/bank_train.csv")
+write.csv2(f_test, file = "Data/bank_test.csv")
