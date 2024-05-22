@@ -2,9 +2,9 @@
 
 # Download the data
 
-f_train <- read.csv2('flats_train.csv', header = TRUE, encoding = 'UNICOD')
+f_train <- read.csv2('Data/flats_train.csv', header = TRUE, encoding = 'UNICOD')
 f_train <- f_train[,-1]
-f_test <- read.csv2('flats_test.csv', header = TRUE, encoding = 'UNICOD')
+f_test <- read.csv2('Data/flats_test.csv', header = TRUE, encoding = 'UNICOD')
 f_test <- f_test[,-1]
 
 
@@ -126,5 +126,5 @@ ggplot() +
 # Saving results
 
 fit <- data.frame(f_test$price, p_sr, p_mr, p_pr)
-write.csv2(fit, file = "flats_fit.csv")
+write.csv2(fit, file = "Data/flats_fit.csv")
 
