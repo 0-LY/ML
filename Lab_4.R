@@ -1,8 +1,8 @@
 # NONLINEAR REGRESSION 
 # Download the data
 
-f_train <- read.csv2('flats_train.csv', header = TRUE, encoding = 'UNICOD')
-f_test <- read.csv2('flats_test.csv', header = TRUE, encoding = 'UNICOD')
+f_train <- read.csv2('Data/flats_train.csv', header = TRUE, encoding = 'UNICOD')
+f_test <- read.csv2('Data/flats_test.csv', header = TRUE, encoding = 'UNICOD')
 
 
 # Decision Tree Regression
